@@ -1,0 +1,13 @@
+import { Component } from "@angular/core";
+
+@Component({
+  selector: 'app-photo',
+  templateUrl: 'photo.component.html'
+})
+
+export class PhotoComponent {
+
+  description?: 'Leão';
+  url?: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sultan_the_Barbery_Lion.jpg/440px-Sultan'
+
+}
